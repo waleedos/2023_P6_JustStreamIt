@@ -386,21 +386,23 @@ span {
 }
 
 footer {
-  background-color: #080808;
+  background-color: #460303;
   text-align: center;
   padding: 10px;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  font-size: 0.8rem;
   border-radius: 10px;
 }
 
 .footer-text {
-  color: red;
+  color: gray;
+  font-size: 0.9rem;
+  padding-bottom: 5px;
 }
 
 .footer-walid {
   color: white;
+  font-size: 1rem;
 }
