@@ -1,11 +1,15 @@
 # Projet 6 OpenClassRoom : Développez une interface utilisateur pour une application web Python
 
-## Présentation du projet
+## Compétences évaluées :
+- Interagir avec une API REST.
+- Développer la partie Front-End d’une application avec HTML, CSS et JavaScript.
+
+## Présentation du projet :
 Le but de ce projet est de créer un site web de référencement de films de cinémas. Le but de ce site est de donner différentes informations sur plus ou moins 85000 films. Les informations comprennent le titre du film , son image, un résumé , son classement IMDB etc..
 
-Ce site a pour but d'aider les cinéphiles lors de l'achat de dvd ou choix de programmes télé; Il est développé en html ,css et javascript( vanilla javascript). Et doit fonctionner sous Edge , Firefox et Chrome.
+Ce site a pour but d'aider les cinéphiles lors de l'achat de dvd ou choix de programmes télé; Il est développé en html ,css et javascript( vanilla javascript); Et doit fonctionner sous Edge, Firefox et Chrome.
 
-## composition
+## Composition du projet :
 Tous les fichiers necessaires pour faire fonctionner le site se trouvent dans le répertoire /frontend.
 
 Ces fichiers sont :
@@ -14,11 +18,56 @@ Ces fichiers sont :
 - main.js .
 - et un répértoire /img qui contient les images du site comme le logo et les fleches.
 
-## Lancement du site
-Mettez l'adresse main.html dans le navigateur de votre choix .
-Auparavant , assurez-vous que l'api d'accès à la base de données de films fonctionne.
+## Lancement du site :
+Afin de pouvoir lancer et tester ce projet vous devrier passer par ces 4 étapes : 
 
-## Présentation du site
+### 1- Création d'un répértoire vide :
+Qualque part sur votre ordinateur, créez un repertoire vide et nommez le 'JustStreamIt'
+'''
+mkdir JustStreamIt
+'''
+Puis, rendez vous dans ce repertoir créé :
+'''
+cd JustStreamIt
+'''
+
+### 2- Clonage du projet :
+'''
+git clone https://github.com/waleedos/2023_P6_JustStreamIt.git
+'''
+Puis mettez vous dans la racine du projet : 
+'''
+cd 2023_P6_JustStreamIt
+'''
+### 3- Construisez votre API dans le repertoire /backend
+'''
+cd backend
+'''
+Puis créer un environnement virtuel :
+'''
+python -m venv env
+'''
+Puis activez votre environnement virtuel :
+'''
+source env/bin/activate
+'''
+Puis installer les dependances du projet :
+'''
+pip install -r requirements.txt
+'''
+Puis Créez et populez la base de donnée du projet :
+'''
+python manage.py create_db
+'''
+Et enfin, démarrez le serveur avec : 
+'''
+python manage.py runserver
+'''
+
+### 4- Démarrez le projet :
+Ouvrez le fichier index.html se trouvant dans le dossier /frontend avec n'importe quel navigateur installé sur votre machine.
+
+### Présentation du site
 Un bandeau gris apparaît en haut de l'écran , avec le nom du site , un lien accueil et un combobox avec les différentes catégories de films.
 - si on clique sur Accueil la page se rafraichit
 - si on sélectionne une catégorie dans la combobox , un message apparait 'option non operationnele pour le moment'.
@@ -32,11 +81,6 @@ Les 3 catégories sont
 - Western
 
 Si on clique sur chaque image du film , une fenêtre s'affiche indquant les informations sur le film , un bouton permet de fermer la fenêtre. Il se peut que l'image du film ne soit pas présente , une image indiquant , image non disponible apparaît mais si on clique dessu , les informations apparaissent quand même.
-
-# Interface pour l'application JustStreamIt
-
-Interface pour l'application JustStreamIt qui permet l'affichage de données sur des films 
-récupérés via une api.
 
 
 ## Initialisation du programme:
@@ -188,3 +232,4 @@ Un carroussel donne la possibilité de naviguer dans chacune des listes
 * Testé sur les navigateurs Edge, Chrome et Firefox
 * L'API tourne par défaut sur le port 8000
 * Ouvrez le fichier index.html en local depuis votre navigateur favori
+
