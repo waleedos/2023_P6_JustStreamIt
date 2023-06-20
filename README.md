@@ -93,7 +93,6 @@ Sur chaque image de film un clic est possible pour ouvrir une fenêtre modale av
 
 ## Interface
 
-![App Screenshot](https://github.com/RodWeb53/P6_JustStreamIt/blob/39bf2d9b8fd1d7fc54e65c1881ae33468258e45e/frontend/img/presentation.png)
 
 
 ## Déploiement
@@ -145,14 +144,13 @@ L'interface se compose de plusieurs zones :
 
 Lancer votre terminal et clonez le projet:
 
-    git clone https://github.com/cedric-joan/JustStreamIt.git
 
 
 # Installation du back-end
 
 Pour faire fonctionner ce site web, suiver les instructions présentent à cette adresse:
 
-    https://github.com/OpenClassrooms-Student-Center/OCMovies-API-EN-FR
+
     
 # Lancer le programme
 
@@ -161,7 +159,6 @@ Une fois l'API lancée, l'utilisateur peut accéder au site via son IDE avec la 
 
 # Oc-P6 Développez une interface utilisateur pour une application web Python
 ---
-![logo](assets/logo.png)
 
 ## Objectif
 Ce programme est un projet proposé par [OpenClassRooms](https://openclassrooms.com/fr/) dans le cadre de la formation :
