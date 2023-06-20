@@ -97,7 +97,7 @@ Félicitations ! Aucune erreur trouvée.
 
 
 # JustStreamIt
-![](images/JustStreamIt.png)
+![](/frontend/img/juststreamit.png)
 
 
 ## API Utilisée :
