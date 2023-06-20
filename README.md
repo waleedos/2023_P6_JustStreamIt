@@ -23,46 +23,46 @@ Afin de pouvoir lancer et tester ce projet vous devrier passer par ces 4 étapes
 
 ### 1- Création d'un répértoire vide :
 Qualque part sur votre ordinateur, créez un repertoire vide et nommez le 'JustStreamIt'
-'''
+```
 mkdir JustStreamIt
-'''
+```
 Puis, rendez vous dans ce repertoir créé :
-'''
+```
 cd JustStreamIt
-'''
+```
 
 ### 2- Clonage du projet :
-'''
+```
 git clone https://github.com/waleedos/2023_P6_JustStreamIt.git
-'''
+```
 Puis mettez vous dans la racine du projet : 
-'''
+```
 cd 2023_P6_JustStreamIt
-'''
+```
 ### 3- Construisez votre API dans le repertoire /backend
-'''
+```
 cd backend
-'''
+```
 Puis créer un environnement virtuel :
-'''
+```
 python -m venv env
-'''
+```
 Puis activez votre environnement virtuel :
-'''
+```
 source env/bin/activate
-'''
+```
 Puis installer les dependances du projet :
-'''
+```
 pip install -r requirements.txt
-'''
+```
 Puis Créez et populez la base de donnée du projet :
-'''
+```
 python manage.py create_db
-'''
+```
 Et enfin, démarrez le serveur avec : 
-'''
+```
 python manage.py runserver
-'''
+```
 
 ### 4- Démarrez le projet :
 Ouvrez le fichier index.html se trouvant dans le dossier /frontend avec n'importe quel navigateur installé sur votre machine.
