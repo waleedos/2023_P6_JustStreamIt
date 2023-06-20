@@ -2,6 +2,10 @@
 pour faire des requêtes à l'API.*/
 const mainURL = "http://localhost:8000/api/v1/titles/";
 
+// constante qui contient un objet. Cet objet a des propriétés pour chaque catégorie de film dont les noms sont 
+// en anglais (comme "Best", "Crime", "Drama", "Family" et "Sport"). Chaque propriété est un autre objet qui a 
+// deux propriétés : "name" (le nom de la catégorie en français) et "preposition" (la préposition à utiliser
+// avant le nom de la catégorie en français).
 const categoryNamesMap = {
     "Best": { name: "(Classement Global)", preposition: "" },
     "Crime": { name: "Crime", preposition: "de " },
@@ -10,6 +14,11 @@ const categoryNamesMap = {
     "Sport": { name: "Sport", preposition: "de " }
 };
 
+// Création d'une fonction qui prend une catégorie (en anglais) comme argument. Cette fonction cherche le nom de 
+// cette catégorie en français dans l'objet categoryNamesMap. Si elle le trouve, elle retourne l'objet associé à 
+// cette catégorie (qui contient le nom de la catégorie en français et la préposition appropriée). Si elle ne le 
+// trouve pas, elle retourne un nouvel objet avec le nom de la catégorie (qui est la même que l'argument fourni) 
+// et la préposition "de ".
 function getCategoryNameInFrench(categorie) {
     return categoryNamesMap[categorie] || { name: categorie, preposition: "de " };
 }
