@@ -1,6 +1,4 @@
 # Projet 6 OpenClassRoom : Développez une interface utilisateur pour une application web Python
-
-# JustStreamIt
 ![](/frontend/img/juststreamit.png)
 
 ## Compétences évaluées :
