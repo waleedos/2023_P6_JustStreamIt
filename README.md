@@ -1,5 +1,5 @@
 # Projet 6 OpenClassRoom : Développez une interface utilisateur pour une application web Python
-![](/frontend/img/juststreamit.png)
+![](/frontend/img/juststreamit-1.png)
 
 ## Compétences évaluées :
 - Interagir avec une API REST.
