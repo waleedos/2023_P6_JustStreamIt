@@ -1,5 +1,8 @@
 # Projet 6 OpenClassRoom : Développez une interface utilisateur pour une application web Python
 
+# JustStreamIt
+![](/frontend/img/juststreamit.png)
+
 ## Compétences évaluées :
 - Interagir avec une API REST.
 - Développer la partie Front-End d’une application avec HTML, CSS et JavaScript.
@@ -10,23 +13,23 @@ Le but de ce projet est de créer un site web de référencement de films de cin
 Ce site a pour but d'aider les cinéphiles lors de l'achat de dvd ou choix de programmes télé; Il est développé en html ,css et javascript( vanilla javascript); Et doit fonctionner sous Edge, Firefox et Chrome.
 
 ## Composition du projet :
-Tous les fichiers necessaires pour faire fonctionner le site se trouvent dans le répertoire /frontend.
+Tous les fichiers nécessaires pour faire fonctionner le site se trouvent dans le répertoire /frontend.
 
 Ces fichiers sont :
 - index.html .
 - style.css . 
 - main.js .
-- et un répértoire /img qui contient les images du site comme le logo et les fleches.
+- et un répertoire /img qui contient les images du site comme le logo et les flèches.
 
 ## Lancement du site en 4 étapes:
-Afin de pouvoir lancer et tester ce projet vous devrier passer par ces 4 étapes : 
+Afin de pouvoir lancer et tester ce projet vous devriez passer par ces 4 étapes : 
 
-### 1- Création d'un répértoire vide :
-Qualque part sur votre ordinateur, créez un repertoire vide et nommez le 'JustStreamIt'
+### 1- Création d'un répertoire vide :
+Quelque part sur votre ordinateur, créez un répertoire vide et nommez le 'JustStreamIt'
 ```
 mkdir JustStreamIt
 ```
-Puis, rendez vous dans ce repertoir créé :
+Puis, rendez vous dans ce répertoire créé :
 ```
 cd JustStreamIt
 ```
@@ -39,7 +42,7 @@ Puis mettez vous dans la racine du projet :
 ```
 cd 2023_P6_JustStreamIt
 ```
-### 3- Construisez votre API dans le repertoire /backend
+### 3- Construisez votre API dans le répertoire /backend
 ```
 cd backend
 ```
@@ -55,7 +58,7 @@ Puis installer les dependances du projet :
 ```
 pip install -r requirements.txt
 ```
-Puis Créez et populez la base de donnée du projet :
+Puis Créez et « populez » la base de donnée du projet :
 ```
 python manage.py create_db
 ```
@@ -70,11 +73,11 @@ Ouvrez le fichier index.html se trouvant dans le dossier /frontend avec n'import
 ### Présentation du site
 Sur l'interface de ce projet, les sections sont:
 
-    -   Le meillleur film
+    -   Le meilleur film
         - Un bouton "plus d'infos" pour avoir un descriptif complet du film.
         - Un bouton pour fermer ce descriptif ouvert. 
 
-    -   Section des 7 meilleurs films "Classment Global".
+    -   Section des 7 meilleurs films "Classement Global".
 
     -   1 section avec les 7 meilleurs films pour la catégorie Crime.
     -   1 section avec les 7 meilleurs films pour la catégorie Drame.
@@ -82,8 +85,8 @@ Sur l'interface de ce projet, les sections sont:
     -   1 section avec les 7 meilleurs films pour la catégorie Sport.
 
     -   Sur chaque image de chaque film un clic est possible pour ouvrir une fenêtre modale avec un descriptif     complet du film
-    - Par defaut, dans chaque section, l'utilisateur trouve 5 films, et il doit cliquer sur une petite fleche à droite pour voir les deux autres films click par click
-    - Une foit la fleche de droite cliquée, l'utilisateur peut retourner en arriere avec une autre flèche à gauche.
+    - Par défaut, dans chaque section, l'utilisateur trouve 5 films, et il doit cliquer sur une petite fleche à droite pour voir les deux autres films clic par clic
+    - Une foi la flèche de droite cliquée, l'utilisateur peut retourner en arrière avec une autre flèche à gauche.
 
 Bonne navigation...
 
@@ -95,11 +98,6 @@ Résultat de la validation du CSS sur le site du W3C     - OK
 
 Félicitations ! Aucune erreur trouvée.
 
-
-# JustStreamIt
-![](/frontend/img/juststreamit.png)
-
-
 ## API Utilisée :
 * Il utilise une API REST: OCMovies-API-EN-FR développée par OpenClassrooms
 
@@ -108,5 +106,4 @@ Félicitations ! Aucune erreur trouvée.
 [dépôt de OCMovies-API-EN-FR](https://github.com/OpenClassrooms-Student-Center/OCMovies-API-EN-FR)
 * Testé sur les navigateurs Edge, Chrome et Firefox
 * L'API tourne par défaut sur le port 8000
-
 
